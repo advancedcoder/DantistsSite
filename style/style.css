@@ -1,0 +1,476 @@
+* {
+    font-family: verdana;
+}
+
+body {
+    position: relative;
+    width: 780px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+header input {
+    width: 148px;
+    height: 14px;
+    border-color: #000000;
+    border-width: 1px;
+    float: right;
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 1px;
+    border-width: 0;
+    width: 538px;
+    background-color: #20207e;
+}
+
+/*question mark button*/
+div#top_thin img:first-child {
+    margin: 3px 0 0 8px;
+}
+
+/*exclamation mark and envelope button*/
+div#top_thin img:nth-of-type(2),
+div#top_thin img:nth-of-type(3) {
+    margin:  3px 0 0 1px;
+}
+
+/*buttons names*/
+/*header td div {
+height: 9px;
+}*/
+
+/*SEARCH*/
+div#top_wide p {
+    color: #fff;
+    font: 700 8pt Arial;
+    letter-spacing: 0.5px;
+    margin: 6px auto 0 5px;
+}
+
+/*ok button*/
+div#top_wide img:last-child {
+    float: right;
+    margin: 7px;
+
+}
+
+/*logo*/
+header div div.top:first-child {
+    position: absolute;
+    z-index: 2;
+    width: 173px;
+    height: 143px;
+    background: url(/img/tooth.png);
+}
+
+/*logo shadow*/
+header div div.top:nth-of-type(2) {
+    position: absolute;
+    z-index: 2;
+    width: 120px;
+    height: 112px;
+    margin-top: 4px;
+    margin-left: 13px;
+    background: url(/img/tooth_white_shadow.png);
+}
+
+/*blue stripe*/
+header div div.top:nth-of-type(3) {
+    width: 538px;
+    height: 35px;
+    background-color: #20207e;
+}
+
+/*header with text*/
+header div div.top:last-child {
+    width: 538px;
+    height: 97px;
+}
+
+/*dental health*/
+.top a {
+    margin-left: 185px;
+}
+
+.top a img {
+    margin-top: 5px;
+}
+
+/*text on the top*/
+p.top-text {
+    text-align: right;
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 8pt;
+}
+
+/*long text on the top*/
+p.top-text:first-child {
+    line-height: 18px;
+    margin: 0px 4px 0px auto;
+}
+
+/*date*/
+p.top-text:last-child {
+    margin: 0;
+}
+
+/*sidebar*/
+footer>div {
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    width: 180px;
+    height: 570px;
+    background-color: #ff7d21;
+}
+
+/*spotlight features*/
+#spotlight {
+    color: #ffffff;
+    margin-top: 17px;
+    letter-spacing: 1px;
+    margin-left: 16px;
+    font-size: 8.3pt;
+}
+
+/*text in spotlight features*/
+#under-pills {
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+/*what new header*/
+div#main_head {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 193px;
+    width: 559px;
+    background-color: #20207e;
+    height: 16px;
+}
+
+/*what new text*/
+div#main_head p {
+    color: #ffffff;
+    margin: 1px 0 0 9px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+/*blue header in main*/
+div#main_middle div>p:nth-child(2) {
+    color: #20207e;
+    margin: 8px auto 0 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*blue header in main*/
+div#main_bottom div>p:nth-child(2) {
+    color: #20207e;
+    margin: 8px auto 0 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*text in main window*/
+.main-text {
+    margin-left: 6px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+p.main-text:nth-child(3) {
+    margin-top: 13px;
+}
+
+p.main-text:nth-child(4) {
+    margin-top: 16px;
+}
+
+p.main-text:nth-child(5), 
+p.main-text:nth-child(7), 
+p.main-text:nth-child(9),
+p.main-text:nth-child(8)
+{
+    margin-top: 14px;
+}
+
+p.main-text:nth-child(6) {
+    margin-top: 26px;
+}
+
+header>div {
+    background-color: #ff7d21;
+    float: left;
+}
+
+#top_thin {
+    width: 213px;
+    height: 53px;
+    border-left: 1px solid #20207e;
+    border-bottom: 1px solid #20207e;
+}
+
+#top_wide {
+    width: 213px;
+    height: 78px;
+    border-radius: 0 0 11px 0;
+    border-left: 1px solid #20207e;
+}
+
+
+.menu-item {
+    margin-left: 4px;
+    border-left: 1px solid #20207e;
+    border-bottom: 1px solid #20207e;
+    height: 15px;
+}
+
+.menu-item {
+    height: 17px;
+    width: 175px;
+}
+
+.menu-item div {
+    height: 100%;  
+}
+
+.menu-item:first-child {
+    height: 22px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    cursor: default;
+}
+
+/*hover for menu items*/
+.menu-item:not(:first-child) :hover {
+    background-image: linear-gradient(#20207e, #fff);
+}
+
+/*side menu items*/
+.menu-item {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 8pt;
+    line-height: 1.35;
+    padding-left: 0px;
+    cursor: default;
+}
+
+div#main_middle img {
+    position: absolute;
+    margin-top: 130.5px;
+    margin-left: 315.5px;
+}
+
+#main_middle, #main_bottom {
+    float: left;
+    width: 557px;
+    margin-top: 10px;
+    border: 1px solid #20207e;
+    margin-left: 193px;
+}
+
+div#main_middle {
+    margin-top: 24px;
+    background-color: #fff;
+    height: 392px;
+}
+
+#main_bottom {
+    margin-top: -1px;
+}
+
+
+div#main_bottom {
+    background-color: #fff;
+    border-top: 1px solid #20207e;
+    height: 150px;
+}
+
+.button-text {
+    color: #fff;
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.button-text:first-child {
+    margin-left: 29px;
+}
+
+.button-text:nth-child(2) {
+    margin-left: 28px;
+}
+
+.button-text:last-child {
+    margin-left: 18px;
+}
+
+.top div {
+    position: absolute;
+    width: 199px;
+    height: 17px;
+    margin-left: 185px;
+    margin-top: 9px;
+    background: url(/img/dental_stripes.png);
+}
+
+.top div div {
+    position: absolute;
+    width: 114px;
+    height: 18px;
+    margin-left: 94px;
+    margin-top: -1px;
+    background: url(/img/dental.png);
+}
+
+#advert>div:first-child {
+    border: 1px solid #ffffff;
+    width: 170px;
+    height: 31px;
+    margin: 26px auto 0;
+}
+
+#advert>div:first-child div {
+    position: absolute;
+    width:63px;
+    height: 28px;
+    margin-left: 7px;
+    margin-top: 4px;
+    background: url(/img/button_top.png);
+}
+
+#advert>div:last-child {
+    width: 172px;
+    height: 236px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#advert img {
+    margin-left: 17px;
+}
+
+/**************FORM_SERVER_MAIN****************/
+
+.server-error {
+    font-size: 15px;
+    color: red;
+}
+
+textarea {
+    margin-top: 15px;
+    width: 70%;
+    height: 70px;
+}
+
+/**************NO_ERROR_MAIN****************/
+
+.no-error {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/************SERVER_VARIABLES_MAIN*************/
+
+#srv-var {
+    text-align: left;
+    font-size: 12px;
+}
+
+/************FILE_SYSTEM_MAIN*************/
+
+.table {
+    border-collapse: collapse;
+    border-color: gray;
+    border-spacing: 2px;
+    text-align: left;
+    width:100%;
+}
+
+th {
+    border-bottom: 1px solid #dee2e6; 
+    padding: 5px;
+}
+
+tbody tr:nth-of-type(odd) {
+    border-top: 1px solid grey;
+    background-color: rgba(0,0,0,.05);
+}
+
+tbody tr {
+    border-top: 1px solid #dee2e6;
+}
+
+tbody td {
+    padding: 5px;
+}
+
+thead th:last-child {
+    column-span: 2;
+}
+
+table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.type {
+    margin-right: 3px;
+}
+
+.btnDel {
+    background-color: #dc3545 !important;
+    width: 65px !important;
+    margin-top: 0 !important;
+}
+
+.b-container{
+    width:200px;
+    height:150px;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: #fff;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:absolute;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:50%;
+    height: 80px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.span {
+    float: right;
+}

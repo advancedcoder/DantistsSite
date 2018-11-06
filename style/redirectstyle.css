@@ -1,0 +1,32 @@
+* {
+    font-family: verdana;
+}
+
+#main-middle div {
+    background: url(/img/ajax-loader.gif);
+    width: 128px;
+    height: 15px;
+}
+
+#main-head, #main-middle {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto; 
+}
+
+#main-middle {
+    margin-top: 24px;
+	background-color: #fff;
+	height: 544px;
+    float: left;
+	width: 557px;
+    text-align: center;
+	border: 1px solid #20207e;
+	margin-left: 193px;
+}

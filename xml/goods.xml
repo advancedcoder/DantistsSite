@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!DOCTYPE rules [
+	<!ELEMENT goods (product)>
+	<!ELEMENT product (name, price, serialNumber, year, thumbnail, type, model, company)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ELEMENT serialNumber (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+	<!ELEMENT thumbnail (#PCDATA)>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT model (#PCDATA)>
+	<!ELEMENT company (#PCDATA)>
+]>   
+<goods>
+	<product>
+		<name>iPhone</name>
+		<price>1149</price>
+		<serialNumber>112263</serialNumber>
+		<year>2017</year>
+		<thumbnail>/img/thumbnail/iphone-x.jpg</thumbnail>
+		<type>phone</type>
+		<model>iPhone X</model>
+		<company>Apple</company>
+	</product>
+	<product>
+		<name>Pixel</name>
+		<price>499</price>
+		<serialNumber>112264</serialNumber>
+		<year>2016</year>
+		<thumbnail>/img/thumbnail/pixel.jpg</thumbnail>
+		<type>phone</type>
+		<model>Pixel 1</model>
+		<company>Google</company>
+	</product>
+	<product>
+		<name>Samsung Galaxy</name>
+		<price>719</price>
+		<serialNumber>112265</serialNumber>
+		<year>2018</year>
+		<thumbnail>/img/thumbnail/galaxy_s9.jpg</thumbnail>
+		<type>phone</type>
+		<model>Galaxy S9</model>
+		<company>Samsung</company>
+	</product>
+	<product>
+		<name>OnePlus</name>
+		<price>529</price>
+		<serialNumber>112266</serialNumber>
+		<year>2017</year>
+		<thumbnail>/img/thumbnail/oneplus-6.jpg</thumbnail>
+		<type>phone</type>
+		<model>OnePlus 6</model>
+		<company>OnePlus</company>
+	</product>
+	<product>
+		<name>Apple Watch Series 4</name>
+		<price>399</price>
+		<serialNumber>112267</serialNumber>
+		<year>2018</year>
+		<thumbnail>/img/thumbnail/apple_watch.jpg</thumbnail>
+		<type>watch</type>
+		<model>Series 4</model>
+		<company>Apple</company>
+	</product>
+	<product>
+		<name>Samsung Gear</name>
+		<price>349</price>
+		<serialNumber>112268</serialNumber>
+		<year>2017</year>
+		<thumbnail>/img/thumbnail/gear_s3.jpg</thumbnail>
+		<type>watch</type>
+		<model>Gear S3</model>
+		<company>Samsung</company>
+	</product>	
+	<product>
+		<name>iPad Pro 12.9</name>
+		<price>799</price>
+		<serialNumber>112269</serialNumber>
+		<year>2017</year>
+		<thumbnail>/img/thumbnail/ipad.jpg</thumbnail>
+		<type>tablet</type>
+		<model>iPad</model>
+		<company>Apple</company>
+	</product>	
+	<product>
+		<name>Acer Predator</name>
+		<price>8999</price>
+		<serialNumber>112270</serialNumber>
+		<year>2018</year>
+		<thumbnail>/img/thumbnail/acer.jpg</thumbnail>
+		<type>laptop</type>
+		<model>Predator x8051f120</model>
+		<company>Acer</company>
+	</product>
+	<product>
+		<name>Playstation 4 Pro</name>
+		<price>399</price>
+		<serialNumber>112271</serialNumber>
+		<year>2016</year>
+		<thumbnail>/img/thumbnail/ps4.jpg</thumbnail>
+		<type>High-end console</type>
+		<model>PS4</model>
+		<company>Sony</company>
+	</product>
+	<product>
+		<name>XBox One X</name>
+		<price>499</price>
+		<serialNumber>112272</serialNumber>
+		<year>2017</year>
+		<thumbnail>/img/thumbnail/xbox.jpg</thumbnail>
+		<type>High-end console</type>
+		<model>One X</model>
+		<company>Microsoft</company>
+	</product>
+	<product>
+		<name>iPhone XS Max</name>
+		<price>1449</price>
+		<serialNumber>112273</serialNumber>
+		<year>2018</year>
+		<thumbnail>/img/thumbnail/iphone-xs.jpg</thumbnail>
+		<type>phone</type>
+		<model>XS Max</model>
+		<company>Apple</company>
+	</product>
+	<product>
+		<name>Samsung Galaxy A9</name>
+		<price>699</price>
+		<serialNumber>112274</serialNumber>
+		<year>2018</year>
+		<thumbnail>/img/thumbnail/a9.jpg</thumbnail>
+		<type>phone</type>
+		<model>Galaxy A9</model>
+		<company>Samsung</company>
+	</product>
+</goods>
